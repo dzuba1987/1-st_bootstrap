@@ -7,6 +7,14 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.sell_right  .button {
+		margin: 15px auto;
+		float: none;
+		max-width: 250px;
+	}
+	.sell_descr {
+		text-align: center;
+	}
 	.main_menu ul {
 		display: none;
 		background-color: #3797bf;

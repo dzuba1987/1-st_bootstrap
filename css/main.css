@@ -17,11 +17,15 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	
+    border: red 3px solid ;
+
+
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+    border: green 3px solid ;
+
+
 }
 body {
 	font-family: "RobotoRegular", sans-serif;
@@ -121,7 +125,7 @@ h1 {
     font-family:RobotoCondensedLight;
 
 }
-.slider_container {
+.slider_container img {
     max-width: 100%;
 }
 .slider_container {
@@ -239,4 +243,74 @@ h1 {
 .login-help{
     font-size: 12px;
 }
+section.order {
+    background-color: #cdcdcd;
+    padding: 25px 0;
+}
+.sell_descr {
+    font-size: 23px;
+}
+.button {
+    border: none;
+    display: block;
+    background-color: rgba(112, 199, 26, 0.93);
+    color:#fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.button:hover {
+    background-color: rgba(156, 251, 63, 0.93);
+}
+.button:active {
+    background-color: rgba(91, 160, 21, 0.93);
+}
 
+.sell_right .button {
+    float: right;
+}
+.sell_descr {
+    padding-top: 10px;
+}
+.hidden {
+    display: none;
+}
+.pop_form input[type=text]{
+    width: 90%;
+    line-height: 24px;
+    display: block;
+    margin-bottom:12px;
+    border: #999 3px solid ;
+}
+.pop_form .button {
+    margin: 20px auto 0;
+}
+.pop_form h3 {
+    text-align: center;
+    margin: 10px auto 15px;
+    font-weight:normal;
+    font-family: RobotoCondensedBold;
+    text-transform: uppercase;
+}
+.blog_item img {
+    max-width: 100%;
+    margin-bottom:20px;
+}
+.blog_item h3 {
+    text-transform: uppercase;
+    font-family:RobotoCondensedRegular;
+    margin-bottom: 10px;
+}
+.blog_item h3 a {
+    text-decoration: underline;
+}
+.blog_item p {
+    margin-top: 0;
+}
+.right_aside {
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    margin-top: 30px;
+}
